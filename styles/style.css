@@ -475,7 +475,57 @@ ul li a{
 #gender{
     width: 205%;
 }
+/* Unique section */
+ .Diet{
+    margin-top: 40px;
+    height: 655px;
+    width: 100%;
+    
+}
+.diet-h{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+.div1, .div2{
+    width: 400px;
+    height: 420px;
+    color: white;
+    margin: 0 auto;
+}
+.div1{
+    border: 1px solid  rgba(255, 255, 255, 0.4);
+    margin-top: 50px;
+    background-image: url(../images/aftereffct.jpg);
+    background-size: cover;
+    
+}
+.div2{
+    border: 1px solid  rgba(255, 255, 255, 0.9);
+    text-align: center;
+    justify-content: center;
+    font-size: 3rem;
+    background-color: darkred;
+    transition: transform 2s;
+}
+.div2:hover{
+    border: 1px solid  greenyellow;
+    transform: translate(-380px) scale(1.5);
+}
+/*.jkfd{
+    width: 50%;
+    height: 70%;
 
+}
+.jkfd:hover{
+
+}
+.div1{
+    background-image: url(../images/aftereffct.jpg);
+    background-repeat: no;
+} */
 
 
 /* For small div */
@@ -692,7 +742,10 @@ ul li a{
 .bmi-form-p{
     margin-bottom: 34px;
 }
-
+/* unique section */
+.div1, .div2{
+    width: 300px;
+}
 
 
 
