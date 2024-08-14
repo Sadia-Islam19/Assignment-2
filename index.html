@@ -6,6 +6,17 @@
     <title>Fitness Website</title>
     <link rel="stylesheet" href="styles/style.css">
     <link href="https://fonts.cdnfonts.com/css/miama" rel="stylesheet">
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 10px ;
+            color: rgba(255, 255, 255, 0.5);
+        }
+        
+    </style>
                 
 </head>
 <body class="inter-font bg-clr">
@@ -82,6 +93,64 @@
             </div>
             <div class="mile-img">
                 <img class="mile-img" src="images/run.jpg" alt="">
+            </div>
+        </div>
+        <div class="BML-calc">
+            <div class="bml-txt">
+                <h3 class="mile-h">BMI Calculator</h3>
+                <p class="text-primary">Free Body Mass Index calculator gives out the BMI value and categorizes BMI based on provided information from WHO and CDC for both adults and children.</p>
+            </div>
+            <div class="bmi-block">
+                <div class="bmi-block-content display-flex">
+                    <div class="bmi-chart">
+                        <h3 class="tb-h">BMI Calculator Chart</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th style="font-size: 1rem; font-weight: 500; color: white;">BMI</th>
+                                    <th style="font-size: 1rem; font-weight: 500; color: white;">Weight Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Below 18.5</td>
+                                    <td>Underweight</td>
+                                </tr>
+                                <tr>
+                                    <td>18.5- 24.9</td>
+                                    <td>Healthy</td>
+                                </tr>
+                                <tr>
+                                    <td>25.0-29.9</td>
+                                    <td>Overweight</td>
+                                </tr>
+                                <tr>
+                                    <td>30.0-and Above</td>
+                                    <td>Obese</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="bmi-form">
+                        <h3 class="bmi-form-h">Calculate your BMI</h3>
+                        <p class="text-primary bmi-form-p">View the BMI form or use the tool below to compute yours. Enter your weight and height using standard or metric measures. Select "Compute BMI" and your BMI will be calculated. </p>
+                        <div class="form">
+                            <input class="input" type="text" placeholder="Height/cm" name="" id="">
+                            <input class="input" type="text" placeholder="weight/kg" name="" id="">
+                            <input class="input" type="text" placeholder="Age" name="" id="">
+                            <select class="input" placeholder="Sex" name="" id="">
+                                <option value="" >male</option>
+                                <option value="">female</option>
+                            </select>
+                            <select class="input" placeholder="Select an activity factor" name="" id="gender">
+                                <option value="" >male</option>
+                                <option value="">female</option>
+                            </select>
+                            
+                        </div>
+                        <button class="btn-primary">Calculate</button>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="meet-team">
