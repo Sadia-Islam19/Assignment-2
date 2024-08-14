@@ -252,6 +252,48 @@ ul li a{
     grid-template-columns: repeat(4, 1fr);
 }
 
+/* run Xtra mile */
+.Xtra-mile{
+    
+    width: 75%;
+    height: 371px;
+    margin: 0 auto;
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 1.125rem;
+    margin-top: 100px;
+}
+.mile-txt{
+    width: 45%;
+    margin-left: 3.375rem;
+    margin-top: 2.5rem;
+    margin-right: 10rem;
+}
+.mile-h
+{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.mile-p{
+    margin-bottom: 34px;
+}
+.mile-img{
+    width: 75%;
+    height: 312px;
+    
+}
+.mile-img{
+    margin-top: 15px;
+    object-fit: cover;
+    width: absolute;
+    margin-left: 65px;
+    border-radius: 18px;
+    /* height: 95%; */
+    /* height: 100vh; */
+}
+
+
 
 /* For small div */
 @media screen and (max-width: 576px){
@@ -337,6 +379,6 @@ ul li a{
     width: 59%;
     margin: 0 auto;
     height: 274;
-
+}
 
 }
