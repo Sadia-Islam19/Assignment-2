@@ -381,4 +381,39 @@ ul li a{
     height: 274;
 }
 
+/* run an xtra mile */
+.Xtra-mile{
+    width: 90%;
+    height: 531px;
+    margin: 0 auto;
+    flex-direction: column;
+
+}
+.mile-txt{
+    width: 80%;
+    margin: 31px auto;
+    text-align: center;
+}
+.mile-h
+{
+    color: white;
+    font-size: 2rem;
+    
+}
+.mile-p{
+    margin-bottom: 24px;
+}
+.mile-img{
+    width: 95%;
+    height: 170px;
+    
+}
+.mile-img{
+    width: absolute;
+    margin: 0 auto;
+    border-radius: 18px;
+    margin-top: 10px;
+}
+
+
 }
