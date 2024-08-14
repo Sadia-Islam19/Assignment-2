@@ -485,7 +485,6 @@ ul li a{
         width: 100%;
         height: 1120px;
     }
-
     .navbar{
     margin: 0 20px;
     padding-top: 57px;
@@ -657,5 +656,44 @@ ul li a{
     padding-left: 0px;
     /* margin-left: 0; */
 }
+/* bmi */
+.BML-calc{
+    height: 928px;
+    margin-top: 30px;
+}
+.bml-txt{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.bmi-block-content{
+    width: 90%;
+    flex-direction: column;
+}
+.tb-h{
+    padding-top: 34px;
+    margin-bottom: 23px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 900;
+}
+.bmi-block{
+    height: 772px;
+}
+.bmi-form{
+    height: 395px;
+    width: 100%;
+}
+.bmi-form-h{
+    padding-top: 42px;
+    font-size: 1rem;
+}
+.bmi-form-p{
+    margin-bottom: 34px;
+}
+
+
+
 
 }
